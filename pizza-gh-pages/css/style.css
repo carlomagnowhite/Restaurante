@@ -123,7 +123,6 @@ b,
 strong {
   font-weight: bolder; }
 
-
 small {
   font-size: 80%; }
 
@@ -485,8 +484,8 @@ pre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: center;
   margin-right: -15px;
   margin-left: -15px; }
 
@@ -3252,7 +3251,7 @@ input[type="button"].btn-block {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0.5rem 1rem; }
   .navbar > .container,
   .navbar > .container-fluid {
@@ -3266,7 +3265,7 @@ input[type="button"].btn-block {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: center; }
+    justify-content: space-between; }
 
 .navbar-brand {
   display: inline-block;
@@ -7727,7 +7726,7 @@ h1, h2, h3, h4, h5,
     padding: 30px; }
     @media (min-width: 1200px) {
       .ftco-intro .wrap .info {
-        width: 100%;
+        width: calc(100% - 35%);
         padding: 2% 5% 2% 12%; } }
     @media (max-width: 767.98px) {
       .ftco-intro .wrap .info {
@@ -8974,8 +8973,3 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
-    .centrar_imagen{
-      display: flex;
-      justify-content:center;
-    }
-    
